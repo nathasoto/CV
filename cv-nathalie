@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+            <li><a href="index.html">CV</a></li>
+            <li><a href="hobby.html">HOBBY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div></div>         
+            <div class="container_r">   
+                <div class = "photo">
+                    <img src="photo/nathy2.JPG" alt="Photo_Nathalie" >
+                </div>
+                <div class ="contacto">
+                    <h3>Contact</h3>
+                      <p> +33 7 84 85 38 16 <br> moirans , France</p>        
+                </div>
+                <div class= "langues">
+                    <h3>Langues</h3>
+                    <ul>
+                        <li>Espagnol</li>
+                        <li>Français</li>
+                        <li>Anglais</li>
+                    </ul>
+                </div>
+                <div class="competences">
+                    <h3>Compétences</h3>
+                    <ol>
+                        <li>Gestion du stress</li>
+                        <li>Sens de l'écoute</li>
+                        <li>Travail d'equipe</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="container_l">
+                <div class="presentacion">
+                    <h1>SOTO NATHALIE</h1>
+                    <h3>Alternance en Développeur LogicieL</h3>
+                    <p> Ingénieure en informatique avec <strong>expérience</strong>,cherchant à acquérir de nouvelles compétences dans un contexte <b>international</b> dan le domaine du développeur logiciel.</p>
+                </div>
+                <div class="experience">
+                    <h2>Expériences Professionnelles</h2>
+                    <table>
+                        <tr>
+                           <th>Entreprise</th>
+                           <th>Année</th>
+                           <th rowspan="2">2</th>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>4</td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="3">5</td>
+                            <!-- <td>6</td>
+                            <td>8</td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="2">9</td>
+                            <td >10</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                <div class="formation">
+                    <h2>Formation</h2>
+                    <table class ="tabla">
+                        <tr>
+                           <th>Ecole</th>
+                           <th>Année</th>
+                         </tr>
+                         <tr>
+                             <td>3</td>
+                             <td>4</td>
+                             
+                         </tr>
+                         <tr>  
+                            <td>3</td>
+                            <td>4</td>
+                         </tr>
+                    </table>
+                </div>
+            </div>          
+            <div></div>                
+        </div>
+
+    </main>
+</body>
+</html>
